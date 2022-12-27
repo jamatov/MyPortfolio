@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
+  border-radius: 50%;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -198,11 +199,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../../logo.png") top center;
+  background: url("../../assets/img/it-design-technology-digital-art-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-jxcqn-1080x675.jpg") top center;
   background-repeat: no-repeat;
-  background-repeat: repeat;
   background-color: #000;
-  
+  background-size: cover;
 }
 
 #hero:before {
