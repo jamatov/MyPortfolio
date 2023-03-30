@@ -197,10 +197,20 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../../assets/img/it-design-technology-digital-art-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-jxcqn-1080x675.jpg") top center;
+  /* background: url("../../assets/img/it-design-technology-digital-art-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-jxcqn-1080x675.jpg") top center; */
   background-repeat: no-repeat;
-  background-color: #000;
+  /* background-color: #000; */
   background-size: cover;
+  position: relative;
+}
+
+.video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 #hero:before {
@@ -294,6 +304,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about{
+  background: #fff;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -402,6 +415,9 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume{
+  background: #fff;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -604,6 +620,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background: #fff;
+}
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -731,6 +750,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  background: #F5F8FD;
 }
 .contact .info {
   padding: 30px;
